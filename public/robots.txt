@@ -1,0 +1,21 @@
+# Peyejan Robots.txt
+User-agent: *
+Allow: /
+Allow: /products/
+Allow: /about/
+Allow: /contact/
+
+# Block Admin and Private Panels
+Disallow: /admin/
+Disallow: /seller/
+Disallow: /dashboard/
+Disallow: /api/
+Disallow: /login
+Disallow: /register
+
+# Block Search Queries (SEO-র জন্য গুরুত্বপূর্ণ)
+Disallow: /*?q=
+Disallow: /*?search=
+
+# Sitemaps
+Sitemap: https://peyejan.com/sitemap.xml
