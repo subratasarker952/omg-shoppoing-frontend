@@ -1,16 +1,52 @@
-# React + Vite
+# Multi-Vendor Marketplace (Bangladesh) 🛒🇧🇩
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+একটি আধুনিক, স্কেলেবল এবং পারফরম্যান্স-অপ্টিমাইজড মাল্টি-ভেন্ডর ই-কমার্স প্ল্যাটফর্ম যা বিশেষ করে বাংলাদেশের প্রেক্ষাপটে (COD, Steadfast Courier, Local Shipping Zones) তৈরি করা হয়েছে।
 
-Currently, two official plugins are available:
+## 🚀 মূল ফিচারসমূহ (Core Features)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 👥 ইউজার রোলস (Role-based Access)
+- **Admin:** রোডাক্ট লিস্টিং (ভ্যারিয়েন্টসহ), অর্ডার ম্যানেজমেন্ট, প্ল্যাটফর্ম কন্ট্রোল, সেলস অ্যানালিটিক্স।
+- **Buyer:** প্রোডাক্ট ব্রাউজিং, উইশলিস্ট, কার্ট এবং ট্র্যাকিং।
 
-## React Compiler
+### 💳 পেমেন্ট ও লজিস্টিকস
+- **Payment:** অনলাইন পেমেন্ট (SSLCommerz/bKash) এবং ক্যাশ অন ডেলিভারি (COD)।
+- **Courier:** Steadfast API ইন্টিগ্রেশন (সেলার অ্যাড্রেস থেকে সরাসরি পিকআপ)। // not complete
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ টেক স্ট্যাক (Tech Stack)
+
+- **Frontend:** React.js, Tailwind CSS, TanStack Query (React Query), Axios.
+- **Backend:** Node.js, Express.js.
+- **Database:** MongoDB (Mongoose).
+- **Security:** JWT Authentication, Role-based Access Control (RBAC), Zod Validation.
+- **Others:** Sharp (Image Compression), Cloudinary (Image Hosting).
+
+---
+
+## 📂 প্রোজেক্ট স্ট্রাকচার (Folder Structure)
+
+```text
+/root
+├── /backend
+│   ├── /controllers     # বিজনেস লজিক
+│   ├── /models          # MongoDB স্কিমা (User, Product, Store, Order)
+│   ├── /routes          # API এন্ডপয়েন্টস
+│   ├── /middleware      # Auth & Role verification
+│   └── server.js
+├── /frontend
+│   ├── /src
+│   │   ├── /components  # রি-ইউজেবল UI এলিমেন্টস
+│   │   ├── /pages       # Admin, Seller, Buyer পেজসমূহ
+│   │   ├── /hooks       # কাস্টম রিয়্যাক্ট হুকস
+│   │   └── /api         # Axios কনফিগারেশন
+└── README.md
+
+
+
+admin= admin@example.com
+pass= admin@example
+
+user = subratasarker952@gmail.com
+pass = 123456
