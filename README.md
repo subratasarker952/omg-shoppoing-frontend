@@ -1,4 +1,4 @@
-# Multi-Vendor Marketplace (Bangladesh) 🛒🇧🇩
+# Shopping Marketplace (Bangladesh) 🛒🇧🇩
 
 একটি আধুনিক, স্কেলেবল এবং পারফরম্যান্স-অপ্টিমাইজড মাল্টি-ভেন্ডর ই-কমার্স প্ল্যাটফর্ম যা বিশেষ করে বাংলাদেশের প্রেক্ষাপটে (COD, Steadfast Courier, Local Shipping Zones) তৈরি করা হয়েছে।
 
