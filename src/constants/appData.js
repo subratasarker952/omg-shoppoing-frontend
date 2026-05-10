@@ -7,8 +7,8 @@ import {
 
 export const DEFAULT_SETTINGS = {
     // --- General Settings ---
-    siteName: "Peyejan",
-    siteEmail: "support@peyejan.com",
+    siteName: "omgshoppoing",
+    siteEmail: "support@omgshopping.com",
     sitePhone: "+8801XXXXXXXXX",
     currency: "BDT",
     currencySymbol: "৳",
@@ -24,16 +24,16 @@ export const DEFAULT_SETTINGS = {
     freeShippingThreshold: 2000,
 
     // --- SEO & Branding ---
-    metaTitle: "Peyejan - Best Online Shop",
-    metaDescription: "Buy anything from Peyejan",
+    metaTitle: "Omgshopping - Best Online Shop",
+    metaDescription: "Buy anything from Omgshopping",
     logoUrl: "/assets/logo.png",
     faviconUrl: "/favicon.ico",
 
     // --- Social Links ---
-    facebookUrl: "https://facebook.com/peyejan",
-    instagramUrl: "https://instagram.com/peyejan",
-    twitterUrl: "",
-    linkedinUrl: "",
+    facebookUrl: "https://facebook.com/",
+    instagramUrl: "https://instagram.com/",
+    twitterUrl: "https://twitter.com/",
+    linkedinUrl: 'https://linkedin.com/',
 
     // --- Additional Meta (Optional) ---
     isLoading: true // ফ্রন্টএন্ড স্টেটের জন্য
